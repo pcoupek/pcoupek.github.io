@@ -1,0 +1,109 @@
+
+body {
+	background-color: white;
+	}
+
+p{
+font-family: Georgia, serif;
+font-size: 14pt;
+}
+
+table{width: 100%;
+font-family: Georgia, serif;
+font-size: 14pt;
+}
+
+p + ul {
+    margin-top: -10pt;
+}
+
+h3 + hr {
+    margin-top: -10pt;
+}
+
+hr{ border: none;
+    color: rgb(20, 40, 139);
+    background-color: rgb(60, 110, 170);
+    border-top: medium solid
+}
+
+li{
+margin-top: 5pt;
+font-family: Georgia, serif;
+font-size: 14pt;
+}
+
+h2{
+font-family: Georgia, serif;
+font-size: 24pt;
+}
+
+h1{
+font-family: Georgia, serif;
+color: rgb(0, 15, 100);
+font-size: 28pt;
+}
+
+h3{
+font-family: Georgia, serif;
+font-size: 18pt;
+
+}
+
+h4{
+font-family: Georgia, serif;
+font-size: 15pt;
+
+}
+
+#wrapper {
+	width: 1050px;
+	margin: auto;
+}
+
+@media (min-width: 1px) and (max-width: 775px) {
+/* enter small devices and phone style overrides here */
+#wrapper {
+	width: device-width;
+	margin: auto;
+}
+}
+
+
+a:link{color: rgb(60, 130, 235)}
+a:visited{color: rgb(20, 40, 139)}
+a:hover{color: #04AA6D}
+
+/* Add a  background color to the top navigation */
+.topnav {
+  background-color: rgb(20, 40, 139);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-family: Georgia, serif;
+  font-size: 15pt;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #04AA6D;
+}
+/* originally #ddd , and   color: black */
+
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(60, 130, 235);
+  color: white;
+}
+
+
+/* originally #04AA6D */
+</style>
